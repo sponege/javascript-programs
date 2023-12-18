@@ -1,0 +1,3 @@
+// this was fun to make :)
+// try to see how it works :O
+p='';t="(hello_earth)";m=[[]];n=(a,b)=>{c=a.split``.map(b=>Number(b));r=[];for([i,d] of c.entries()){if((b>>i)&1)r.push(d);}return r};z=0;for(d of t.toLowerCase()){b="wPkz\\>?p\x7F~\b}\x1F'[/-7]\x102\x07\x19\x1bm|\t>\x0fW^i'r\x02".charCodeAt("0123456789-abcdefghijlnopqrstuy?()_".indexOf(d));m[m.length-1]=m[m.length-1].concat(n('12',b).map(i=>i+z));m.push(n('012',b>>2).map(i=>i+z));m.push(n('0134',b>>5).map(i=>i+z));z+=2}my=t.length*2+1;for(y=0;y<my;y++){for(x=0;x<my;x++){p+=m[my-1-y].includes(x)?(x+y)%2?'\\':'/':' '}p+='\n'}console.log(p)
